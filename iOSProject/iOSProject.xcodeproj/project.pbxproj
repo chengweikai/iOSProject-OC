@@ -14,6 +14,7 @@
 		545C05D52555AA7100520CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545C05D42555AA7100520CEC /* Assets.xcassets */; };
 		545C05D82555AA7100520CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545C05D62555AA7100520CEC /* LaunchScreen.storyboard */; };
 		545C05DB2555AA7100520CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 545C05DA2555AA7100520CEC /* main.m */; };
+		545C05E52555B0F800520CEC /* NSDictionary+vkCURD.m in Sources */ = {isa = PBXBuildFile; fileRef = 545C05E42555B0F800520CEC /* NSDictionary+vkCURD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		545C05D72555AA7100520CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		545C05D92555AA7100520CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		545C05DA2555AA7100520CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		545C05E32555B0F800520CEC /* NSDictionary+vkCURD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+vkCURD.h"; sourceTree = "<group>"; };
+		545C05E42555B0F800520CEC /* NSDictionary+vkCURD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+vkCURD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		545C05C72555AA6E00520CEC /* iOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				545C05E12555AFE800520CEC /* Categories */,
 				545C05C82555AA6E00520CEC /* AppDelegate.h */,
 				545C05C92555AA6E00520CEC /* AppDelegate.m */,
 				545C05CB2555AA6E00520CEC /* SceneDelegate.h */,
@@ -74,6 +78,23 @@
 				545C05DA2555AA7100520CEC /* main.m */,
 			);
 			path = iOSProject;
+			sourceTree = "<group>";
+		};
+		545C05E12555AFE800520CEC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				545C05E22555B01500520CEC /* NSDictionary */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		545C05E22555B01500520CEC /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				545C05E32555B0F800520CEC /* NSDictionary+vkCURD.h */,
+				545C05E42555B0F800520CEC /* NSDictionary+vkCURD.m */,
+			);
+			path = NSDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +171,7 @@
 				545C05CA2555AA6E00520CEC /* AppDelegate.m in Sources */,
 				545C05DB2555AA7100520CEC /* main.m in Sources */,
 				545C05CD2555AA6E00520CEC /* SceneDelegate.m in Sources */,
+				545C05E52555B0F800520CEC /* NSDictionary+vkCURD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
