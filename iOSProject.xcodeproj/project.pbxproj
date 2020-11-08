@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		545FB7332558811400D37E32 /* NSString+vkPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 545FB7322558811400D37E32 /* NSString+vkPinyin.m */; };
+		545FB7362558877C00D37E32 /* NSString+vkUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 545FB7352558877C00D37E32 /* NSString+vkUUID.m */; };
+		545FB73925588A4800D37E32 /* NSString+vkXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 545FB73825588A4800D37E32 /* NSString+vkXMLDictionary.m */; };
 		54D1B8952555E0C40014FD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1B8942555E0C40014FD1F /* AppDelegate.m */; };
 		54D1B8982555E0C40014FD1F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1B8972555E0C40014FD1F /* SceneDelegate.m */; };
 		54D1B89B2555E0C40014FD1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1B89A2555E0C40014FD1F /* ViewController.m */; };
@@ -14,9 +17,16 @@
 		54D1B8A02555E0C60014FD1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D1B89F2555E0C60014FD1F /* Assets.xcassets */; };
 		54D1B8A32555E0C60014FD1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D1B8A12555E0C60014FD1F /* LaunchScreen.storyboard */; };
 		54D1B8A62555E0C60014FD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1B8A52555E0C60014FD1F /* main.m */; };
+		54D1B8B02555E0D50014FD1F /* NSDictionary+vkCURD.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1B8AE2555E0D50014FD1F /* NSDictionary+vkCURD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		545FB7312558811400D37E32 /* NSString+vkPinyin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+vkPinyin.h"; sourceTree = "<group>"; };
+		545FB7322558811400D37E32 /* NSString+vkPinyin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+vkPinyin.m"; sourceTree = "<group>"; };
+		545FB7342558877C00D37E32 /* NSString+vkUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+vkUUID.h"; sourceTree = "<group>"; };
+		545FB7352558877C00D37E32 /* NSString+vkUUID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+vkUUID.m"; sourceTree = "<group>"; };
+		545FB73725588A4800D37E32 /* NSString+vkXMLDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+vkXMLDictionary.h"; sourceTree = "<group>"; };
+		545FB73825588A4800D37E32 /* NSString+vkXMLDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+vkXMLDictionary.m"; sourceTree = "<group>"; };
 		54D1B8902555E0C40014FD1F /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D1B8932555E0C40014FD1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54D1B8942555E0C40014FD1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +39,8 @@
 		54D1B8A22555E0C60014FD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54D1B8A42555E0C60014FD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54D1B8A52555E0C60014FD1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54D1B8AE2555E0D50014FD1F /* NSDictionary+vkCURD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+vkCURD.m"; sourceTree = "<group>"; };
+		54D1B8AF2555E0D50014FD1F /* NSDictionary+vkCURD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+vkCURD.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		545FB72D2558807B00D37E32 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				545FB7312558811400D37E32 /* NSString+vkPinyin.h */,
+				545FB7322558811400D37E32 /* NSString+vkPinyin.m */,
+				545FB7342558877C00D37E32 /* NSString+vkUUID.h */,
+				545FB7352558877C00D37E32 /* NSString+vkUUID.m */,
+				545FB73725588A4800D37E32 /* NSString+vkXMLDictionary.h */,
+				545FB73825588A4800D37E32 /* NSString+vkXMLDictionary.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		54D1B8872555E0C40014FD1F = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +86,7 @@
 		54D1B8922555E0C40014FD1F /* iOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				54D1B8AC2555E0D50014FD1F /* Categories */,
 				54D1B8932555E0C40014FD1F /* AppDelegate.h */,
 				54D1B8942555E0C40014FD1F /* AppDelegate.m */,
 				54D1B8962555E0C40014FD1F /* SceneDelegate.h */,
@@ -74,6 +100,24 @@
 				54D1B8A52555E0C60014FD1F /* main.m */,
 			);
 			path = iOSProject;
+			sourceTree = "<group>";
+		};
+		54D1B8AC2555E0D50014FD1F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				545FB72D2558807B00D37E32 /* NSString */,
+				54D1B8AD2555E0D50014FD1F /* NSDictionary */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		54D1B8AD2555E0D50014FD1F /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				54D1B8AE2555E0D50014FD1F /* NSDictionary+vkCURD.m */,
+				54D1B8AF2555E0D50014FD1F /* NSDictionary+vkCURD.h */,
+			);
+			path = NSDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545FB73925588A4800D37E32 /* NSString+vkXMLDictionary.m in Sources */,
 				54D1B89B2555E0C40014FD1F /* ViewController.m in Sources */,
 				54D1B8952555E0C40014FD1F /* AppDelegate.m in Sources */,
 				54D1B8A62555E0C60014FD1F /* main.m in Sources */,
+				545FB7332558811400D37E32 /* NSString+vkPinyin.m in Sources */,
 				54D1B8982555E0C40014FD1F /* SceneDelegate.m in Sources */,
+				545FB7362558877C00D37E32 /* NSString+vkUUID.m in Sources */,
+				54D1B8B02555E0D50014FD1F /* NSDictionary+vkCURD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
